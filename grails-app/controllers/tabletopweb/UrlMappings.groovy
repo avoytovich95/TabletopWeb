@@ -14,5 +14,6 @@ class UrlMappings {
         "404"(view:'/notFound')
         "/character"(view:'/character')
         "/player"(view:'/player')
+        "/session"(controller:'Session', action: 'init')
     }
 }
