@@ -5,7 +5,7 @@ import grails.rest.*
 @Resource(uri='/combat')
 class CombatOrder {
 
-    Integer discord_id
+    String discord_id
     Integer entity_id
     Integer initiative
 
