@@ -5,8 +5,8 @@ import grails.rest.*
 @Resource(uri='/combat')
 class CombatOrder {
 
-    Integer discord_id
-    static hasOne = [entity_id:Entity]
+    String discord_id
+    Integer entity_id
     Integer initiative
 
     static constraints = {

@@ -1,9 +1,9 @@
 package tabletopweb
 
-import grails.testing.web.controllers.ControllerUnitTest
+import grails.testing.gorm.DomainUnitTest
 import spock.lang.Specification
 
-class TestControllerSpec extends Specification implements ControllerUnitTest<TestController> {
+class IDTrackerSpec extends Specification implements DomainUnitTest<IDTracker> {
 
     def setup() {
     }

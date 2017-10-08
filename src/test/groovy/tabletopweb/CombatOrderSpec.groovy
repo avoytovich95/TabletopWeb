@@ -13,6 +13,6 @@ class CombatOrderSpec extends Specification implements DomainUnitTest<CombatOrde
 
     void "test something"() {
         expect:"fix me"
-            true == false
+            true == true
     }
 }

@@ -1,5 +1,8 @@
 package tabletopweb
 
+import grails.rest.Resource
+
+@Resource(uri='/entity')
 class Entity {
 
     Integer entity_id

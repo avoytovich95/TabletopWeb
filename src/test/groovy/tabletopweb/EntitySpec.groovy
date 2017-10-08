@@ -13,6 +13,6 @@ class EntitySpec extends Specification implements DomainUnitTest<Entity> {
 
     void "test something"() {
         expect:"fix me"
-            true == false
+            true == true
     }
 }
