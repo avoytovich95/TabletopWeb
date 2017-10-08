@@ -57,5 +57,9 @@ footer.page-footer {
 }
 
 #slide-out {
-  background-color: #9e182d;
+  background-color: #b71c1c;
+}
+
+#session-search {
+  background-color: white;
 }
