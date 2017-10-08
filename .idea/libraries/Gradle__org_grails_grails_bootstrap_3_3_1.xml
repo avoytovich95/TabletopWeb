@@ -2,6 +2,7 @@
   <library name="Gradle: org.grails:grails-bootstrap:3.3.1">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-bootstrap/3.3.1/fd56fe5b91d228b5e0baaf395064afe24c341e65/grails-bootstrap-3.3.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/grails/grails-bootstrap/3.3.1/grails-bootstrap-3.3.1.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
