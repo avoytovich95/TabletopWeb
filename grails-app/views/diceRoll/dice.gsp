@@ -44,27 +44,29 @@
 </header>
 
 <div class="container row">
-    <div class="input-field col offset-s3 s2">
-        <select>
-            <option value="" disabled selected>Choose your option</option>
-            <option value="1">d4</option>
-            <option value="2">d6</option>
-            <option value="3">d8</option>
-            <option value="4">d10</option>
-            <option value="5">d12</option>
-            <option value="6">d20</option>
-        </select>
-        <label>Dice Type</label>
-    </div>
-    <div class="input-field col s2">
-        <input type="number" min="0" value="0" name="num_dice" id="num_dice" />
-        <label for="num_dice"># of Dice</label>
-    </div>
-    <div class="input-field col s2">
-        <input type="text" value="0" name="mod" id="mod" />
-        <label for="mod">Roll Mod</label>
-    </div>
-    <input type="submit" class="btn-floating waves-effect col s6 offset-s3 center" value="Roll!">
+    <form action="/session/dice" method="POST">
+        <div class="input-field col offset-s3 s2">
+            <select name="dice_type">
+                <option value="" disabled selected>Choose your option</option>
+                <option value="1">d4</option>
+                <option value="2">d6</option>
+                <option value="3">d8</option>
+                <option value="4">d10</option>
+                <option value="5">d12</option>
+                <option value="6">d20</option>
+            </select>
+            <label>Dice Type</label>
+        </div>
+        <div class="input-field col s2">
+            <input type="number" min="0" value="0" name="num_dice" id="num_dice" />
+            <label for="num_dice"># of Dice</label>
+        </div>
+        <div class="input-field col s2">
+            <input type="text" value="0" name="mod" id="mod" />
+            <label for="mod">Roll Mod</label>
+        </div>
+        <input type="submit" class="btn-floating waves-effect col s6 offset-s3 center" value="Roll!">
+    </form>
 </div>
 
 
