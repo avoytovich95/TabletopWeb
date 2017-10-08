@@ -63,3 +63,8 @@ footer.page-footer {
 #session-search {
   background-color: white;
 }
+
+#nav-button {
+  padding-top: 20px;
+  padding-left: 20px;
+}

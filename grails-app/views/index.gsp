@@ -16,6 +16,7 @@
     <body>
         <ul id="slide-out" class="side-nav">
             <li><g:img dir="images" file="DDimg.jpg" width="300"/></li>
+
             <!-- Button for starting new game as Dungeon Master -->
             <li><a class="waves-effect waves-light btn yellow darken-1"><span class="black-text">Start New</span></a></li>
 
@@ -37,7 +38,15 @@
                  <li><a class="waves-effect waves-light btn yellow darken-1 col s4 offset-s7"><span class="black-text">Join</span></a></li>
             </div>
         </ul>
-        <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+        <div id="nav-button">
+            <a href="#" data-activates="slide-out" class="btn-floating btn-large waves-effect waves-light red button-collapse"><i class="material-icons">menu</i></a>
+        </div>
+            
+        <div class="container">
+        </div>
+
+
+        
 
         <!--Import jQuery before materialize.js-->
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
