@@ -19,10 +19,10 @@
             </div>
         </nav>
 
-        
+      
     <ol>
         <g:each var="entry" in="${entitylist}">
-            <li>${entry.name} ${entry.race}</li>
+            <li>${entry.name}</li>
         </g:each>
     </ol>
 
