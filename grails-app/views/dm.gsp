@@ -19,6 +19,13 @@
             </div>
         </nav>
 
+        
+    <ol>
+        <g:each var="entry" in="${entitylist}">
+            <li>${entry.name} ${entry.race}</li>
+        </g:each>
+    </ol>
+
 
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
         <asset:javascript src="materialize.js" />
