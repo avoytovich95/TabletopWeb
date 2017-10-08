@@ -1,6 +1,6 @@
 package tabletopweb
 
-class EntityController {
+class EntityDisplayController {
 
     def list() {
         def entries = Entity.all

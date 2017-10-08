@@ -3,7 +3,7 @@ package tabletopweb
 import grails.testing.web.controllers.ControllerUnitTest
 import spock.lang.Specification
 
-class EntityControllerSpec extends Specification implements ControllerUnitTest<EntityController> {
+class EntityDisplayControllerSpec extends Specification implements ControllerUnitTest<EntityController> {
 
     def setup() {
     }

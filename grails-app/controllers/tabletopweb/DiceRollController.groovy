@@ -11,6 +11,6 @@ class DiceRollController {
         var num = request.getParameter("num_dice")
         var mod = request.getParameter("mod")
 
-        render(view:"dice", model: [result: []])
+        render(view:"dice", model: [results: []])
     }
 }
