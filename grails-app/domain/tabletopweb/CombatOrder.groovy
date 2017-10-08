@@ -6,7 +6,7 @@ import grails.rest.*
 class CombatOrder {
 
     Integer discord_id
-    static hasOne = [entity_id:Entity]
+    Integer entity_id
     Integer initiative
 
     static constraints = {
