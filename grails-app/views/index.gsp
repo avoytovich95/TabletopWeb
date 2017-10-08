@@ -14,7 +14,7 @@
     <body class="grey lighten-3">
         
         <nav>
-            <div  id="main" class="nav-wrapper">
+            <div  id="main" class="nav-wrapper padding red darken-4">
                 <a class="brand-logo"><span class="white-text">Table Top</span></a>
             </div>
         </nav>

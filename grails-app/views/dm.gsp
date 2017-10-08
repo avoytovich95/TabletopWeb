@@ -14,8 +14,8 @@
     <body class="grey lighten-3">
             
         <nav>
-            <div  id="main" class="nav-wrapper">
-                <a class="dm-logo"><span class="white-text">Table Top</span></a>
+            <div  id="main" class="nav-wrapper padding red darken-4">
+                <a class="dm-logo"><span class="white-text">Dungeon Master</span></a>
             </div>
         </nav>
 
