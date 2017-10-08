@@ -39,7 +39,8 @@
         <!-- <g:img class="center fit" dir="images" file="DDimg-narrow.jpg"/> -->
         
         <header>
-            <g:img class="center fit" dir="images" file="DDimg-narrow.jpg" width="1667"/>
+            <h1><span class="white">Table Top</span></h1>
+            <g:img dir="images" file="DDimg-narrow.jpg" width="100%"/>
         </header>
 
         
