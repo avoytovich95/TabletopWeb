@@ -14,5 +14,7 @@ class UrlMappings {
         "404"(view:'/notFound')
         "/character"(view:'/character')
         "/player"(view:'/player')
+
+        "/session/dice"(controller: "DiceRoll", action: "show")
     }
 }
