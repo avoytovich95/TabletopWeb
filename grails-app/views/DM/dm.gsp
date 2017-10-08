@@ -21,8 +21,8 @@
 
       
     <ol>
-        <g:each var="entry" in="${entitylist}">
-            <li>${entry.name}</li>
+        <g:each var="b" in="${entitylist}">
+            <li>${b.name}</li>
         </g:each>
     </ol>
 
