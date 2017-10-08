@@ -13,7 +13,7 @@
     
     <body class="grey lighten-3">
         <nav>
-            <div  id="char-create-header" class="nav-wrapper">
+            <div  class="nav-wrapper padding red darken-4">
                 <a class="brand-logo"><span class="white-text">Create Your Character</span></a>
             </div>
         </nav>
@@ -39,7 +39,7 @@
 
                                     <div class="row">
                                         <div class="input-field col s2 offset-s10">
-                                            <input id="endurance" type="text" class="validate">
+                                            <input id="endurance" type="number" class="validate">
                                             <label for="endurance">Endurance</label>
                                         </div>
                                     </div>
@@ -51,14 +51,14 @@
                                         </div>
                                         <div class="col s4"></div>
                                         <div class="input-field col s2">
-                                            <input id="intelligence" type="text" class="validate">
+                                            <input id="intelligence" type="number" class="validate">
                                             <label for="intelligence">Intelligence</label>
                                         </div>
                                     </div>
 
                                     <div class="row">
                                         <div class="input-field col s2 offset-s10">
-                                            <input id="dexterity" type="text" class="validate">
+                                            <input id="dexterity" type="number" class="validate">
                                             <label for="dexterity">Dexterity</label>
                                         </div>
                                     </div>
@@ -70,14 +70,14 @@
                                         </div>
                                         <div class="col s4"></div>
                                         <div class="input-field col s2">
-                                            <input id="wisdom" type="text" class="validate">
+                                            <input id="wisdom" type="number" class="validate">
                                             <label for="wisdom">Wisdom</label>
                                         </div>
                                     </div>
 
                                     <div class="row">
                                         <div class="input-field col s2 offset-s10">
-                                            <input id="charisma" type="text" class="validate">
+                                            <input id="charisma" type="number" class="validate">
                                             <label for="charisma">Charisma</label>
                                         </div>
                                     </div>
