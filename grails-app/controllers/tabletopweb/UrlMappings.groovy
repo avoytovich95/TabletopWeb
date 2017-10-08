@@ -16,5 +16,6 @@ class UrlMappings {
         "/player"(view:'/player')
         "/session"(controller:'Session', action: 'init')
         "/session/dice"(controller: "DiceRoll", action: "show")
+        "/session/entities"(controller: "Entity", action: "list")
     }
 }
