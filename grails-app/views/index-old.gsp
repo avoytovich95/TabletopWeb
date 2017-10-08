@@ -15,14 +15,14 @@
 
     <body>
         <ul id="slide-out" class="side-nav">
-            <li><div class="background">
-                <g:img dir="images" file="DDimg.jpg" />  
-            </div></li>
-            <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-            <li><a href="#!">Second Link</a></li>
+            <div class="background">
+                <g:img dir="images" file="DDimg.jpg" />    
+            </div>
+            <li><a href="#!" class="nav-text"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+            <li><a href="#!" class="nav-text">Second Link</a></li>
             <li><div class="divider"></div></li>
-            <li><a class="subheader">Subheader</a></li>
-            <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+            <li><a class="subheader" class="nav-text">Subheader</a></li>
+            <li><a class="waves-effect" href="#!" class="nav-text">Third Link With Waves</a></li>
         </ul>
         <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
 
